@@ -1,6 +1,6 @@
 ---
 import { Comment } from 'astro-pure/advanced'
-import { Button, Collapse, Spoiler, Timeline } from 'astro-pure/user'
+import { Button, Spoiler, Timeline } from 'astro-pure/user'
 import PageLayout from '@/layouts/CommonPage.astro'
 import Substats from '@/components/about/Substats.astro'
 import ToolSection from '@/components/about/ToolSection.astro'
@@ -30,12 +30,6 @@ const headings = [
     class='mb-5'
     title='Productivity'
     tools={[
-      {
-        name: 'ClashVerge',
-        description: '科学上网',
-        href: 'https://github.com/Clash-Verge-rev/',
-        icon: import('@/assets/tools/clashVerge.svg?raw')
-      },
       {
         name: 'Obsidian',
         description: 'Markdown记录',
