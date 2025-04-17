@@ -65,7 +65,7 @@ export const theme: ThemeUserConfig = {
     /** Enable displaying a “Astro & Pure theme powered” link in your site’s footer. */
     credits: true,
     /** Optional details about the social media accounts for this site. */
-    social: { github: 'https://github.com/cworld1/astro-theme-pure' }
+    social: { github: 'https://github.com/cuichan/pure' }
   },
 
   content: {
@@ -92,8 +92,8 @@ export const integ: IntegrationUserConfig = {
     applyTip: [
       { name: 'Name', val: theme.title },
       { name: 'Desc', val: theme.description || 'Null' },
-      { name: 'Link', val: 'https://astro-pure.js.org/' },
-      { name: 'Avatar', val: 'https://astro-pure.js.org/favicon/favicon.ico' }
+      { name: 'Link', val: 'https://blog.wrihope.top/' },
+      { name: 'Avatar', val: 'https://blog.wrihope.top/favicon/favicon.ico' }
     ]
   },
   // Enable page search function
@@ -105,8 +105,8 @@ export const integ: IntegrationUserConfig = {
     // server: 'https://v1.hitokoto.cn/?c=i',
     // target: (data) => (data as { hitokoto: string }).hitokoto || 'Error'
     // https://github.com/lukePeavey/quotable
-    server: 'https://api.quotable.io/quotes/random?maxLength=60',
-    target: `(data) => data[0].content || 'Error'`
+    // server: 'https://api.quotable.io/quotes/random?maxLength=60',
+    // target: `(data) => data[0].content || 'Error'`
   },
   // Tailwindcss typography
   // See: https://astro-pure.js.org/docs/integrations/others#tailwindcsstypography
