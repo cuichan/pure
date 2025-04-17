@@ -35,12 +35,6 @@ export const theme: ThemeUserConfig = {
 
   // still in test
   head: [
-    /* Telegram channel *//
-    // {
-    //   tag: 'meta',
-    //   attrs: { name: 'telegram:channel', content: '@cworld0_cn' },
-    //   content: ''
-    // }
   ],
   customCss: [],
 
