@@ -8,9 +8,8 @@ import ToolSection from '@/components/about/ToolSection.astro'
 const headings = [
   { depth: 2, slug: 'tools', text: 'Tools' },
   { depth: 2, slug: 'social-networks', text: 'Social Networks' },
-  { depth: 2, slug: 'about-Education', text: 'Education' },
   { depth: 2, slug: 'about-blog', text: 'About Blog' }
-  
+  { depth: 2, slug: 'about-Education', text: 'Education' }
 ]
 ---
 
@@ -21,68 +20,43 @@ const headings = [
     目前就读于西南大学计算机学院，希望未来能够变得更好。
     我的兴趣主要在机器学习/底层开发方向。
   </p>
-  <p>我的座右铭: Stay hungry, Stay foolish. <Spoiler>万事如意</Spoiler></p>
+  <p>如是我闻 姑妄听之<Spoiler>而今迈步从头越</Spoiler></p>
   <Button title='Sponsor Me' class='w-fit' href='/projects#sponsorship' style='ahead' />
-
-  {/* general-talk */}
 
   {/* tools */}
   <h2 id='tools'>Tools</h2>
-  <p>Current support tools as follow:</p>
-  <ToolSection
-    class='mb-5'
-    title='Design'
-    tools={[
-      {
-        name: 'Illustrator',
-        description: 'Vector Drawing',
-        href: 'https://www.adobe.com/products/illustrator',
-        icon: import('@/assets/tools/illustrator.svg?raw')
-      },
-      {
-        name: 'After Effects',
-        description: 'Motion Graphics',
-        href: 'https://www.adobe.com/products/aftereffects',
-        icon: import('@/assets/tools/aftereffects.svg?raw')
-      },
-      {
-        name: 'Premiere Pro',
-        description: 'Video Editing',
-        href: 'https://www.adobe.com/products/premiere',
-        icon: import('@/assets/tools/premiere.svg?raw')
-      }
-    ]}
-  />
+  <p>以下是我正在使用的一些工具：</p>
   <ToolSection
     class='mb-5'
     title='Productivity'
     tools={[
       {
-        name: 'Chrome',
-        description: 'Broswer',
-        href: 'https://www.google.com/chrome/',
-        icon: import('@/assets/tools/chrome.svg?raw')
+        name: 'ClashVerge',
+        description: '科学上网',
+        href: 'https://github.com/Clash-Verge-rev/',
+        icon: import('@/assets/tools/clashVerge.svg?raw')
       },
       {
-        name: 'Firefox',
-        description: 'Broswer',
-        href: 'https://www.mozilla.org/en-US/firefox',
-        icon: import('@/assets/tools/firefox.svg?raw')
+        name: 'Obsidian',
+        description: 'Markdown记录',
+        href: 'https://obsidian.md/',
+        icon: import('@/assets/tools/LogosObsidianIcon.svg?raw')
       },
       {
-        name: 'Notion',
-        description: 'Note Taking',
-        href: 'https://www.notion.so/',
-        icon: import('@/assets/tools/notion.svg?raw')
+        name: 'Zotero',
+        description: '文献阅读',
+        href: 'https://www.zotero.org/',
+        icon: import('@/assets/tools/zotero.svg?raw')
       },
       {
-        name: 'Typora',
-        description: 'Markdown Editor',
-        href: 'https://typora.io/',
-        icon: import('@/assets/tools/typora.svg?raw')
+        name: 'Pixpin',
+        description: '截图软件',
+        href: 'https://pixpin.cn/',
+        icon: import('@/assets/tools/pixpin.svg?raw')
       }
     ]}
   />
+
   <ToolSection
     class='mb-5'
     title='Development'
@@ -94,10 +68,10 @@ const headings = [
         icon: import('@/assets/tools/vscode.svg?raw')
       },
       {
-        name: 'Neovim',
+        name: 'Intellij IDEA',
         description: 'IDE',
-        href: 'https://neovim.io/',
-        icon: import('@/assets/tools/neovim.svg?raw')
+        href: 'https://www.jetbrains.com/idea',
+        icon: import('@/assets/tools/idea.svg?raw')
       },
       {
         name: 'Sublime Text',
@@ -124,12 +98,6 @@ const headings = [
         icon: import('@/assets/tools/ubuntu.svg?raw')
       },
       {
-        name: 'MacOS Sonoma',
-        description: 'MacBook Air',
-        href: 'https://www.apple.com/macos/',
-        icon: import('@/assets/tools/apple.svg?raw')
-      },
-      {
         name: 'Windows 11',
         description: 'Rog Strix G15',
         href: 'https://news.microsoft.com/windows11-general-availability/',
@@ -141,77 +109,40 @@ const headings = [
   {/* social-networks */}
   <h2 id='social-networks'>Social Networks</h2>
   <p>
-    Lorem ipsum dolor sit amet, vidit suscipit at mei. Quem denique mea id. Usu ei regione indoctum
-    dissentiunt, cu meliore fuisset mei, vel quod voluptua ne.
+   你可以在以下平台找到我：
   </p>
   <Substats
     stats={[
       {
         platform: 'GitHub',
         icon: 'github',
-        link: 'https://github.com/cworld1',
+        link: 'https://github.com/cuichan',
         text: 'followers',
-        api: 'github/cworld1'
+        api: 'github/cuichan'
       },
-      {
-        platform: 'Telegram',
-        icon: 'telegram',
-        color: '#2ca5e0',
-        link: 'https://t.me/cworld0_cn',
-        text: 'subscribers',
-        api: 'telegram/cworld0_cn'
-      },
-      {
-        platform: 'Weibo',
-        icon: 'weibo',
-        color: '#e71f19',
-        link: 'https://weibo.com/cworld0',
-        text: 'followers',
-        api: 'weibo/5501674056'
-      },
-      {
-        platform: 'Steam',
-        icon: 'steam',
-        color: '#50769d',
-        link: 'https://steamcommunity.com/id/cworld',
-        text: 'games',
-        api: 'steamgames/76561199021278120'
-      }
     ]}
   />
 
-  {/* gossips */}
-  <h2 id='gossips'>Gossips</h2>
-  <Collapse title='Lorem ipsum'>
-    Lorem ipsum dolor sit amet, vidit suscipit at mei. Quem denique mea id. Usu ei regione indoctum
-    dissentiunt, cu meliore fuisset mei, vel quod voluptua ne. Ex dicat impedit mel, at eum oratio
-    possit voluptatum.
-  </Collapse>
-
-  {/* about-blog */}
-  <h2 id='about-blog'>About Blog</h2>
-  <p>Website history:</p>
+  {/* about-education */}
+  <h2 id='about-Education'>Education</h2>
   <Timeline
     events={[
       {
-        date: '2024-04-29',
+        date: '2025-09-01',
         content:
-          'Website refectered using <a href="https://astro.build/" target="_blank">Astro</a> and <a href="https://github.com/srleom/astro-theme-resume" target="_blank">Astro Theme Resume</a>'
+          `<strong><a href="https://swu.edu.cn/">西南大学</a></strong>`
       },
       {
-        date: '2024-07-26',
+        date: '2020-09-01',
         content:
-          'Website abstracted as a theme and published on <a href="https://github.com/cworld1/astro-theme-pure"target="_blank">Github</a>'
+           `<strong><a href="https://www.henau.edu.cn/">河南农业大学</a></strong>`
       },
-      {
-        date: '2024-07-27',
-        content: 'Writed website docs'
-      }
     ]}
   />
+  {/* about-blog */}
+  <h2 id='about-blog'>About Blog</h2>
   <p>
-    The smooth operation and personalized customization of website also rely on the resources and
-    technical support provided by the following excellent projects/service providers:
+   本站基于以下项目/服务提供商的资源和技术支持：
   </p>
   <ul>
     <li>Domain: <a href='#' target='_blank'>Vercel</a></li>
