@@ -58,10 +58,10 @@ export const theme: ThemeUserConfig = {
   /** Configure the footer of your site. */
   footer: {
     // Registration information for ICP (optional)
-    registration: {
-      url: 'https://icp.gov.moe/?keyword=APTX4869',
-      text: 'Moe ICP APTX4869'
-    },
+    // registration: {
+    //   url: 'https://icp.gov.moe/?keyword=APTX4869',
+    //   text: 'Moe ICP APTX4869'
+    // },
     /** Enable displaying a “Astro & Pure theme powered” link in your site’s footer. */
     credits: true,
     /** Optional details about the social media accounts for this site. */
@@ -92,8 +92,8 @@ export const integ: IntegrationUserConfig = {
     applyTip: [
       { name: 'Name', val: theme.title },
       { name: 'Desc', val: theme.description || 'Null' },
-      { name: 'Link', val: 'https://astro-pure.js.org/' },
-      { name: 'Avatar', val: 'https://astro-pure.js.org/favicon/favicon.ico' }
+      { name: 'Link', val: 'https://blog.wrihope.top/' },
+      { name: 'Avatar', val: 'https://blog.wrihope.top/favicon/favicon.ico' }
     ]
   },
   // Enable page search function
