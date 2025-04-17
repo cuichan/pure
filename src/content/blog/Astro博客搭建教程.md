@@ -1,12 +1,12 @@
 ---
-title: Markdown 语法支持
-publishDate: 2024-07-26 08:00:00
-description: Markdown 是一种轻量级的「标记语言」。
+title: Markdown Astro博客搭建
+publishDate: 2025-04-17 18:23:12
+description: 'Astro+vercel之0成本搭建漂亮博客'
 tags:
   - 博客
   - 教程
 heroImage:
-  src: ./thumbnail.jpg
+  src: ./wall.jpg
   color: "#B4C6DA"
 language: 中文
 ---
