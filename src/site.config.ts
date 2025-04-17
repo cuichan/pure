@@ -5,7 +5,7 @@ export const theme: ThemeUserConfig = {
   /** Title for your website. Will be used in metadata and as browser tab title. */
   title: 'Ating',
   /** Will be used in index page & copyright declaration */
-  author: 'AtingLife',
+  author: 'Ating Life',
   /** Description metadata for your website. Can be used in page metadata. */
   description: 'Stay hungry, stay foolish',
   /** The default favicon for your site which should be a path to an image in the `public/` directory. */
@@ -35,6 +35,12 @@ export const theme: ThemeUserConfig = {
 
   // still in test
   head: [
+    /* Telegram channel */
+    // {
+    //   tag: 'meta',
+    //   attrs: { name: 'telegram:channel', content: '@cworld0_cn' },
+    //   content: ''
+    // }
   ],
   customCss: [],
 
@@ -42,7 +48,7 @@ export const theme: ThemeUserConfig = {
   header: {
     menu: [
       { title: 'Blog', link: '/blog' },
-      // { title: 'Docs', link: '/docs' },删除 文档 栏目
+      // { title: 'Docs', link: '/docs' },
       { title: 'Projects', link: '/projects' },
       { title: 'Links', link: '/links' },
       { title: 'About', link: '/about' }
@@ -52,10 +58,10 @@ export const theme: ThemeUserConfig = {
   /** Configure the footer of your site. */
   footer: {
     // Registration information for ICP (optional)
-    // registration: {
-    //   url: 'https://icp.gov.moe/?keyword=APTX4869',
-    //   text: 'Moe ICP APTX4869'
-    // },
+    registration: {
+      url: 'https://icp.gov.moe/?keyword=APTX4869',
+      text: 'Moe ICP APTX4869'
+    },
     /** Enable displaying a “Astro & Pure theme powered” link in your site’s footer. */
     credits: true,
     /** Optional details about the social media accounts for this site. */
@@ -86,8 +92,8 @@ export const integ: IntegrationUserConfig = {
     applyTip: [
       { name: 'Name', val: theme.title },
       { name: 'Desc', val: theme.description || 'Null' },
-      { name: 'Link', val: 'https://blog.wrihope.top/' },
-      { name: 'Avatar', val: 'https://blog.wrihope.top/favicon/favicon.ico' }
+      { name: 'Link', val: 'https://astro-pure.js.org/' },
+      { name: 'Avatar', val: 'https://astro-pure.js.org/favicon/favicon.ico' }
     ]
   },
   // Enable page search function
@@ -96,11 +102,11 @@ export const integ: IntegrationUserConfig = {
   // See: https://astro-pure.js.org/docs/integrations/advanced#web-content-render
   quote: {
     // https://developer.hitokoto.cn/sentence/#%E8%AF%B7%E6%B1%82%E5%9C%B0%E5%9D%80
-    server: 'https://v1.hitokoto.cn/?c=i',
-    target: (data) => (data as { hitokoto: string }).hitokoto || 'Error'
+    // server: 'https://v1.hitokoto.cn/?c=i',
+    // target: (data) => (data as { hitokoto: string }).hitokoto || 'Error'
     // https://github.com/lukePeavey/quotable
-    // server: 'https://api.quotable.io/quotes/random?maxLength=60',
-    // target: `(data) => data[0].content || 'Error'`
+    server: 'https://api.quotable.io/quotes/random?maxLength=60',
+    target: `(data) => data[0].content || 'Error'`
   },
   // Tailwindcss typography
   // See: https://astro-pure.js.org/docs/integrations/others#tailwindcsstypography
@@ -119,7 +125,7 @@ export const integ: IntegrationUserConfig = {
   },
   // Comment system
   waline: {
-    enable: false,
+    enable: true,
     // Server service link
     server: 'https://astro-theme-pure-waline.arthals.ink/',
     // Refer https://waline.js.org/en/guide/features/emoji.html
