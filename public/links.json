@@ -33,6 +33,42 @@
           "intro": "这是一个专注于编程技术、软件开发和 IT 行业趋势的博客。分享最新的编程语言、框架、工具和最佳实践，助力开发者提升技能，探索创新技术",
           "link": "https://blog.csun.site/",
           "avatar": "https://5a352de.webp.li/2024/09/af737e9df83e9d90de590f8402203e8c.svg"
+        },
+        {
+          "name": "Unicode Finder",
+          "intro": "Unicode Finder",
+          "link": "https://unicodefinder.com",
+          "avatar": "https://unicodefinder.com/favicon.32x32.png"
+        },
+        {
+          "name": "CSS Zip",
+          "intro": "CSS Zip",
+          "link": "https://csszip.com",
+          "avatar": "https://csszip.com/favicon-32x32.png"
+        },
+        {
+          "name": "Screen Test Tools",
+          "intro": "Screen Test Tools",
+          "link": "https://screentestpro.com",
+          "avatar": "https://screentestpro.com/favicon-32x32.png"
+        },
+        {
+          "name": "Curl Commands Converter",
+          "intro": "Curl Commands Converter",
+          "link": "https://curlcommands.com",
+          "avatar": "https://curlcommands.com/favicon-32x32.png"
+        },
+        {
+          "name": "ASMR Online",
+          "intro": "ASMR Online",
+          "link": "https://inasmr.com",
+          "avatar": "https://inasmr.com/favicon-32x32.png"
+        },
+        {
+          "name": "SVG to PNG",
+          "intro": "SVG to PNG",
+          "link": "https://isvgtopng.com",
+          "avatar": "https://isvgtopng.com/favicon-32x32.png"
         }
       ]
     },
