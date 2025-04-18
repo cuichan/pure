@@ -69,6 +69,18 @@
           "intro": "SVG to PNG",
           "link": "https://isvgtopng.com",
           "avatar": "https://isvgtopng.com/favicon-32x32.png"
+        },
+        {
+          "name": "回忆中的明天",
+          "intro": "码农小站，写点 Java、Swift 和感悟",
+          "link": "https://ichochy.com/",
+          "avatar": "https://ichochy.com/favicon.png"
+        },
+        {
+          "name": "欧尼酱的小屋",
+          "intro": "做不可能之事，视不可视之物，冲破不可破坏的常理！",
+          "link": "https://jmdonj.com/",
+          "avatar": "https://github.com/cike-567/AvatarCollection/blob/main/avatar_512x512.png"
         }
       ]
     },
