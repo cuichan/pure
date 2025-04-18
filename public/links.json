@@ -105,6 +105,12 @@
           "intro": "你花了多少分钟看这些文字，就浪费了多少分钟。",
           "link": "https://blog.heiyu.fun/",
           "avatar": "https://blog.heiyu.fun/usr/themes/handsome/assets/img/heiyu.jpg"
+        },
+        {
+          "name": "gitsilence 的个人博客",
+          "intro": "Coding...",
+          "link": "https://blog.lacknb.cn/",
+          "avatar": "https://ld246.com/images/faviconH.png"
         }
       ]
     },
