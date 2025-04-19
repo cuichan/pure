@@ -1,5 +1,5 @@
 ---
-title: Markdown Astro博客搭建
+title: Astro博客搭建
 publishDate: 2025-04-17 18:23:12
 description: 'Astro+vercel零成本搭建漂亮博客'
 tags:
@@ -25,4 +25,4 @@ Astro博客是一款非常轻量级的博客并且界面非常美观，个人非
  
 ![alt text](./fork.png)
  3. 引入你的项目至[Vercel](https://vercel.com/)
- 4. 
+ 4. 点击Deployment进行部署即可
