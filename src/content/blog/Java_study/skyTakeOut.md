@@ -93,3 +93,34 @@ sky-take-out
 - **common**: 通用工具类和常量等。
 - **server**: 服务层、控制器和数据访问层等与业务逻辑相关的实现。
 - **pojo**: 数据模型和简单数据结构，用于存储和传输数据。
+
+
+```mermaid
+sequenceDiagram
+    participant 客户端
+    participant 拦截器
+    participant 控制器
+    participant 服务层
+    participant 数据库
+
+    客户端->>拦截器: 发送请求(携带Token)
+    拦截器->>拦截器: 检查请求路径是否为/admin/**
+    alt 是/admin路径
+        拦截器->>拦截器: 从Header获取Token
+        拦截器->>拦截器: 调用JwtUtil验证Token
+        alt 验证成功
+            拦截器->>控制器: 放行请求
+            控制器->>服务层: 调用业务方法
+            服务层->>数据库: 查询/更新数据
+            数据库-->>服务层: 返回数据
+            服务层-->>控制器: 返回结果
+            控制器-->>拦截器: 返回响应
+            拦截器-->>客户端: 返回业务数据
+        else 验证失败
+            拦截器-->>客户端: 返回401未授权
+        end
+    else 非/admin路径
+        拦截器-->>客户端: 直接放行
+    end
+
+```
