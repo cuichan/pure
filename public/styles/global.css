@@ -216,3 +216,9 @@ body::-webkit-scrollbar {
 ::-webkit-scrollbar-track {
   background: transparent;
 }
+
+/* 清除 code 标签的伪元素内容 */
+code::before,
+code::after {
+  content: none !important;
+}
