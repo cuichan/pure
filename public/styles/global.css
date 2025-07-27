@@ -217,8 +217,10 @@ body::-webkit-scrollbar {
   background: transparent;
 }
 
-/* 清除 code 标签的伪元素内容 */
+/* 针对 code 标签的强化清理 */
 code::before,
-code::after {
+code::after,
+code::marker {
+  display: none !important;
   content: none !important;
 }
