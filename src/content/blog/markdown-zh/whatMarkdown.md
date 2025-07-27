@@ -81,3 +81,20 @@ Material for MkDocs 提供了以下类型的警示框：
 
 <https://github.com/saicaca/fuwari/>
 
+
+
+<!-- note组件 -->
+:::note
+这是 note 组件 默认主题
+:::
+
+<!-- 支持类型：info、success、warning、error、import -->
+
+:::note{type="info"}
+这是 note 组件 success 主题
+:::
+
+> [!WARNING]
+> Theme template v4.0.2^ CSS engine changed to UnoCSS. Stabler version is [v4.0.1-beta](https://github.com/cworld1/astro-theme-pure/tree/v4.0.1-beta). Known issues:
+>
+> 1. Header & customize options is still under development (template exposed still)
