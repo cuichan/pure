@@ -19,9 +19,13 @@ language: 中文
 
     这是没有设置标题的 note 类型警示块。
 ```
+
 !!! note
 
     这是没有设置标题的 note 类型警示块。
+
+
+    
 ### 修改标题
 在默认情况下，标题会显示为警示框的类型。但你可以通过在类型限定符后添加带引号的字符串来修改标题(支持有效的 Markdown 语法，包括链接、格式化等)。
 ```Markdown
@@ -57,14 +61,21 @@ Material for MkDocs 提供了以下类型的警示框：
 
 !!! quote
     这是 quote 类型的警示框。
+
 !!! warning
     这是 warning 类型的警示框。
+
 !!! bug
     这是 bug 类型的警示框。
+
+
 !!! fail
     这是 fail 类型的警示框。
+
+
 !!! question
     这是 question 类型的警示框。
+
 !!! success
     这是 success 类型的警示框。
 
