@@ -13,7 +13,7 @@ language: 中文
 ## Admonitions 警示块
 警示框，又称提示框，是一种非常适合在不中断文档流的情况下包含附加内容的工具。Material for MkDocs 提供了多种类型的警示框，并允许在其中嵌套任意内容。
 ### 使用方法
-警示框使用简单的语法：块以 !!! 开始，后跟一个作为类型限定符的关键字。块内容紧接在下一行，并缩进四个空格。
+<!-- 警示框使用简单的语法：块以 !!! 开始，后跟一个作为类型限定符的关键字。块内容紧接在下一行，并缩进四个空格。
 ```Markdown
 !!! note
 
@@ -97,4 +97,14 @@ Material for MkDocs 提供了以下类型的警示框：
 > [!WARNING]
 > Theme template v4.0.2^ CSS engine changed to UnoCSS. Stabler version is [v4.0.1-beta](https://github.com/cworld1/astro-theme-pure/tree/v4.0.1-beta). Known issues:
 >
-> 1. Header & customize options is still under development (template exposed still)
+> 1. Header & customize options is still under development (template exposed still) -->
+
+
+<Aside type='tip' title='Try this focus exercise'>
+  Want a way to boost your attention and focus? Neuropsychologist Kim Willment of Harvard-affiliated
+  Brigham and Women's Hospital suggests a single-task exercise like reading. "Read something for 30
+  minutes, setting a timer to go off every five minutes. When it goes off, ask yourself if your mind
+  has wandered. If so, just refocus on what you're reading," she says. "By training your brain to
+  monitor if your mind is wandering, you strengthen the monitoring process and the ability to
+  maintain focus on a single task."
+</Aside>
