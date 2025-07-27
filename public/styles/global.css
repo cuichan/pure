@@ -230,6 +230,6 @@ code {
   padding: 0.2em 0.4em;
   border-radius: 3px;
   font-family: monospace !important;
-  color: #6592a9 !important; /* 继承文字颜色 */
-  font-weight: 500;
+  color: #218590 !important; /* 继承文字颜色 */
+  font-weight: 500 !important;
 }
