@@ -10,10 +10,12 @@ heroImage:
   color: "#B4C6DA"
 language: 中文
 ---
+import { Aside } from 'astro-pure/user'
+
 ## Admonitions 警示块
 警示框，又称提示框，是一种非常适合在不中断文档流的情况下包含附加内容的工具。Material for MkDocs 提供了多种类型的警示框，并允许在其中嵌套任意内容。
 ### 使用方法
-<!-- 警示框使用简单的语法：块以 !!! 开始，后跟一个作为类型限定符的关键字。块内容紧接在下一行，并缩进四个空格。
+警示框使用简单的语法：块以 !!! 开始，后跟一个作为类型限定符的关键字。块内容紧接在下一行，并缩进四个空格。
 ```Markdown
 !!! note
 
@@ -28,77 +30,11 @@ language: 中文
     
 ### 修改标题
 在默认情况下，标题会显示为警示框的类型。但你可以通过在类型限定符后添加带引号的字符串来修改标题(支持有效的 Markdown 语法，包括链接、格式化等)。
-```Markdown
-!!! note "这里是[标题](#)"
-
-    这是设置了标题的 note 类型警示块，
-    你可以在标题里任意发挥，例如加一个超链接等。
-```
-!!! note "这里是[标题](#)"
-
-    这是设置了标题的 note 类型警示块，
-    你可以在标题里任意发挥，例如加一个超链接等。
-### 支持的类型
-Material for MkDocs 提供了以下类型的警示框：
-
-!!! note
-    这是 note 类型的警示框。
-
-!!! tip
-    这是 tip 类型的警示框。
-    
-!!! warning
-    这是 warning 类型的警示框。
-
-!!! danger
-    这是 danger 类型的警示框。
-
-!!! abstract
-    这是 abstract 类型的警示框。
-
-!!! info
-    这是 info 类型的警示框。
-
-!!! quote
-    这是 quote 类型的警示框。
-
-!!! warning
-    这是 warning 类型的警示框。
-
-!!! bug
-    这是 bug 类型的警示框。
-
-
-!!! fail
-    这是 fail 类型的警示框。
-
-
-!!! question
-    这是 question 类型的警示框。
-
-!!! success
-    这是 success 类型的警示框。
-
-<https://github.com/saicaca/fuwari/>
-
-
-
-<!-- note组件 -->
-:::note
-这是 note 组件 默认主题
-:::
-
-<!-- 支持类型：info、success、warning、error、import -->
-
-:::note{type="info"}
-这是 note 组件 success 主题
-:::
 
 > [!WARNING]
 > Theme template v4.0.2^ CSS engine changed to UnoCSS. Stabler version is [v4.0.1-beta](https://github.com/cworld1/astro-theme-pure/tree/v4.0.1-beta). Known issues:
 >
 > 1. Header & customize options is still under development (template exposed still) -->
-
 
 <Aside type='tip' title='Try this focus exercise'>
   Want a way to boost your attention and focus? Neuropsychologist Kim Willment of Harvard-affiliated
@@ -108,3 +44,7 @@ Material for MkDocs 提供了以下类型的警示框：
   monitor if your mind is wandering, you strengthen the monitoring process and the ability to
   maintain focus on a single task."
 </Aside>
+
+- `Lorem ipsum`
+- `astro-theme-pure`
+- `cworld`
